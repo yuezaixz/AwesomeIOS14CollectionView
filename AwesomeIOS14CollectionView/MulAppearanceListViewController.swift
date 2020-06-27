@@ -37,45 +37,7 @@ class MulAppearanceListViewController: UIViewController {
         navigationItem.title = "List Appearances"
         configureHierarchy()
         configureDataSource()
-//        updateBarButtonItem()
     }
-    
-//    private var appearance = UICollectionLayoutListConfiguration.Appearance.plain
-//
-//    @objc
-//    private func changeListAppearance() {
-//        switch appearance {
-//        case .plain:
-//            appearance = .sidebarPlain
-//        case .sidebarPlain:
-//            appearance = .sidebar
-//        case .sidebar:
-//            appearance = .grouped
-//        case .grouped:
-//            appearance = .insetGrouped
-//        case .insetGrouped:
-//            appearance = .plain
-//        default:
-//            break
-//        }
-//        let selectedIndexPath = collectionView.indexPathsForSelectedItems?.first
-//        dataSource.apply(dataSource.snapshot(), animatingDifferences: false)
-//        collectionView.selectItem(at: selectedIndexPath, animated: false, scrollPosition: [])
-//        updateBarButtonItem()
-//    }
-//
-//    private func updateBarButtonItem() {
-//        var title: String? = nil
-//        switch appearance {
-//        case .plain: title = "Plain"
-//        case .sidebarPlain: title = "Sidebar Plain"
-//        case .sidebar: title = "Sidebar"
-//        case .grouped: title = "Grouped"
-//        case .insetGrouped: title = "Inset Grouped"
-//        default: break
-//        }
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(title: title, style: .plain, target: self, action: #selector(changeListAppearance))
-//    }
     
     private let appearances: [UICollectionLayoutListConfiguration.Appearance] = [.plain, .grouped, .insetGrouped, .sidebar, .sidebarPlain]
     
