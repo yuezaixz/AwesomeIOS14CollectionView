@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6D2D10724A6F59300C05843 /* MulAppearanceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D2D10624A6F59300C05843 /* MulAppearanceListViewController.swift */; };
 		A6F323BB24A4507E00D4988E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F323BA24A4507E00D4988E /* AppDelegate.swift */; };
 		A6F323BD24A4507E00D4988E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F323BC24A4507E00D4988E /* SceneDelegate.swift */; };
 		A6F323BF24A4507E00D4988E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F323BE24A4507E00D4988E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6D2D10624A6F59300C05843 /* MulAppearanceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulAppearanceListViewController.swift; sourceTree = "<group>"; };
 		A6F323B724A4507E00D4988E /* AwesomeIOS14CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeIOS14CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F323BA24A4507E00D4988E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F323BC24A4507E00D4988E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				A6F323C324A4508100D4988E /* Assets.xcassets */,
 				A6F323C524A4508100D4988E /* LaunchScreen.storyboard */,
 				A6F323C824A4508100D4988E /* Info.plist */,
+				A6D2D10624A6F59300C05843 /* MulAppearanceListViewController.swift */,
 			);
 			path = AwesomeIOS14CollectionView;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F323BF24A4507E00D4988E /* ViewController.swift in Sources */,
+				A6D2D10724A6F59300C05843 /* MulAppearanceListViewController.swift in Sources */,
 				A6F323BB24A4507E00D4988E /* AppDelegate.swift in Sources */,
 				A6F323BD24A4507E00D4988E /* SceneDelegate.swift in Sources */,
 			);
